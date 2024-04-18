@@ -1,0 +1,109 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  z-index: 3;
+  box-sizing: border-box;
+
+  .topbar_content {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .left {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    height: 40px;
+    backdrop-filter: blur(10px);
+  }
+}
+
+// when menu collapsed this class issue for main conatiner of sidebar
+.sidebar_content_collapsed {
+  position: relative;
+  padding-top: 10px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  z-index: 2;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+// this is Crescent container in open sidebar
+.sidebar_content {
+  position: fixed;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  z-index: 2;
+}
+
+// this style added to a empty div to cover over image
+.settingbar_container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.bottombar_container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.subMenuBorders {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.subMenuBorders:first-child {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+}
+.subMenuBorders:last-child {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}

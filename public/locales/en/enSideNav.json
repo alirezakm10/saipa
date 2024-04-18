@@ -1,0 +1,69 @@
+{
+    "sidenav.dashboard":"Dashboard",
+    "sidenav.users":"Users",
+    "sidenav.posts":"Posts",
+    "sidenav.news":"News",
+    "sidenav.documents":"Documents",
+    "sidenav.store":"Store",
+    "sidenav.messages":"Messages",
+    "sidenav.inventory":"Inventory",
+    "sidenav.faq":"FAQ",
+    "sidenav.settings":"Settings",
+    "sidenav.other":"Other",
+
+    "sidenavsub.allUsers":"All Users",
+    "sidenavsub.addUser":"Add User",
+    "sidenavsub.userLoginLogs":"User Login Logs",
+    "sidenavsub.rolesAndPermissions":"Roles & Permissions",
+
+
+    
+    "sidenavsub.allPosts":"All Posts",
+    "sidenavsub.addPost":"Add Post",
+    "sidenavsub.postsComments":"Comments",
+    "sidenavsub.postsClassification":"Classification",
+
+
+    "sidenavsub.allNews":"All News",
+    "sidenavsub.addNews":"Add News",
+    "sidenavsub.newsComments":"Comments",
+    "sidenavsub.newsClassification":"Classification",
+
+    
+    "sidenavsub.allDocuments":"All Documents",
+    "sidenavsub.addDocument":"Add Document",
+    "sidenavsub.documentsClassification":"Classification",
+
+        
+    "sidenavsub.allProducts":"All Products",
+    "sidenavsub.addProduct":"Add Product",
+    "sidenavsub.productsDiscounts":"Discounts",
+    "sidenavsub.productsTransportPlane":"Transport Plane",
+    "sidenavsub.productsOrdersList":"Orders List",
+    "sidenavsub.productsReturn":"Returned",
+    "sidenavsub.productsGuaranties":"Guaranty",
+    "sidenavsub.productsComments":"Comments",
+    "sidenavsub.productsClassification":"Classification",
+    "sidenavsub.productsLogs":"Logs",
+
+    "sidenavsub.tickets":"Tickets",
+
+    "sidenavsub.inventoryManagement":"Inventory Managemnet",
+    "sidenavsub.inventoryLogs":"Inventory Logs",
+
+    
+    "sidenavsub.faqList":"FAQ List",
+    "sidenavsub.addFaq":"Add FAQ",
+
+    "sidenavsub.siteSettings":"Site Settings",
+    "sidenavsub.shopSettings":"Shop Settings",
+
+    
+    "sidenavsub.otherSldiers":"Sliders",
+    "sidenavsub.otherGalleries":"Galleries",
+    "sidenavsub.otherTunder&Auction":"Tunder, Auction, Events, Notifications, calendars",
+    "sidenavsub.otherOrganizationChart":"Organization Chart",
+    "sidenavsub.otherNewsLetters":"ٔNewsLetters"
+
+
+}

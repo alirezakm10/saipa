@@ -1,0 +1,110 @@
+.dropZone {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 50%; // Adjust based on your breakpoints
+  min-width: 50%;
+  gap: 20px; // Adjust the gap as needed
+  transition: 1s all;
+
+  .iconContainer {
+    display: flex;
+  }
+
+  
+  /* Add media queries for tablet and mobile breakpoints */
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    width: 90%; /* Set the width to 90% for tablets and mobiles */
+  }
+
+
+  
+}
+
+.dragActive {
+  position: relative;
+  display: flex;
+  z-index:2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 50%; // Adjust based on your breakpoints
+  min-width: 50%;
+  gap: 20px; // Adjust the gap as needed
+  background: rgba(107, 4, 133, 0.192);
+  transition: 0.3s all;
+ 
+
+
+  .iconContainer {
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+
+    animation: rotateIconContainer 10s linear infinite; /* Adjust the duration and animation timing as needed */
+
+    .videoFile {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: fit-content;
+      animation: rotateIcons 3s linear infinite; /* Adjust the duration for slower rotation */
+    }
+
+    .docFile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: fit-content;
+      animation: rotateIcons 6s linear infinite; /* Adjust the duration for slower rotation */
+    }
+
+    .imgFile {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: fit-content;
+      animation: rotateIcons 4s linear infinite; /* Adjust the duration for slower rotation */
+    }
+    .customFile {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: fit-content;
+      animation: rotateIcons 5s linear infinite; /* Adjust the duration for slower rotation */
+    }
+  }
+}
+
+@keyframes rotateIconContainer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateIcons {
+  0% {
+    transform: rotateY(0deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateY(
+      -360deg
+    ) rotate(360deg); /* Negative value for counterclockwise rotation */
+  }
+}

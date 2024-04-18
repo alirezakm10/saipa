@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-areas:
+    "topbar topbar topbar"
+    "sidebar content content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 300px 1fr;
+  gap: 10px;
+  padding: 10px;
+
+  .topbar {
+    grid-area: topbar;
+  }
+  .sidebar {
+    padding: 10px;
+    grid-area: sidebar;
+  }
+
+  .content {
+    grid-area: content;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+    grid-template-areas:
+      "topbar"
+      "sidebar"
+      "content";
+    grid-template-rows: 40px auto 100%;
+    grid-template-columns: 100%;
+    gap: 10px;
+    justify-self: center;
+  }
+}

@@ -1,0 +1,13 @@
+.date_picker{
+    width: 100%;
+}
+
+.modal{
+    position: absolute;
+    top : 20%;
+    left : 50%;
+    transform: translate(-50%, 0);
+    padding: 20px;
+   max-height : 90%;
+   overflow-y: auto;
+}

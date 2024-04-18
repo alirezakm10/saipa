@@ -1,0 +1,32 @@
+import React, { useState, useEffect } from "react";
+import styles from "./AnalogClock.module.scss";
+
+const AnalogClock: React.FC = () => {
+  const [date, setDate] = useState(new Date());
+
+  useEffect(() => {
+    // Use a timer to update the clock every second
+    const timerID = setInterval(() => tick(), 1000);
+    
+    // Clear the timer when the component unmounts
+    return () => clearInterval(timerID);
+  }, []);
+
+  const tick = () => {
+    // Update the date and time every second
+    setDate(new Date());
+  };
+
+  // Calculate the rotation degrees for the clock hands
+  const hoursDegrees = (date.getHours() % 12) * 30 + date.getMinutes() / 2;
+  const minutesDegrees = date.getMinutes() * 6 + date.getSeconds() / 10;
+  const secondsDegrees = date.getSeconds() * 6;
+
+  return (
+    <div className={`${styles.clockContainer} ${styles.styling}`}>
+      {/* Your SVG elements for the clock hands go here */}
+    </div>
+  );
+};
+
+export default AnalogClock;

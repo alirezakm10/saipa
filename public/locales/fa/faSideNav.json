@@ -1,0 +1,65 @@
+{
+    "sidenav.dashboard":"داشبورد",
+    "sidenav.users":"کاربران",
+    "sidenav.posts":"نوشته ها",
+    "sidenav.news":"اخبار",
+    "sidenav.documents":"اسناد",
+    "sidenav.store":"فروشگاه",
+    "sidenav.messages":"پیام ها",
+    "sidenav.inventory":"انبار",
+    "sidenav.faq":"سوال و پاسخ",
+    "sidenav.settings":"تنظیمات",
+    "sidenav.other":"سایر",
+
+    
+    "sidenavsub.allUsers":"همه کاربران",
+    "sidenavsub.addUser":"افزودن کاربر",
+    "sidenavsub.userLoginLogs":"گزارش ورود کاربران",
+    "sidenavsub.rolesAndPermissions":"نقش ها و دسترسی ها",
+
+
+    "sidenavsub.allPosts":"همه نوشته ها",
+    "sidenavsub.addPost":"افزودن نوشته",
+    "sidenavsub.postsComments":"دیدگاه ها",
+    "sidenavsub.postsClassification":"دسته بندی",
+
+    "sidenavsub.allNews":"همه خبرها",
+    "sidenavsub.addNews":"افزودن خبر",
+    "sidenavsub.newsComments":"دیدگاه ها",
+    "sidenavsub.newsClassification":"دسته بندی",
+
+    "sidenavsub.allDocuments":"همه سند ها",
+    "sidenavsub.addDocument":"افزودن سند",
+    "sidenavsub.documentsClassification":"دسته بندی",
+
+
+    "sidenavsub.allProducts":"همه محصولات",
+    "sidenavsub.addProduct":"افزودن محصول",
+    "sidenavsub.productsDiscounts":"تخفیفات",
+    "sidenavsub.productsTransportPlane":"نوع ارسال",
+    "sidenavsub.productsOrdersList":"لیست سفارشات",
+    "sidenavsub.productsReturn":"مرجوع شده",
+    "sidenavsub.productsGuaranties":"گارانتی",
+    "sidenavsub.productsComments":"دیدگاه ها",
+    "sidenavsub.productsClassification":"دسته بندی",
+    "sidenavsub.productsLogs":"گزارشات",
+
+    "sidenavsub.tickets":"تیکت ها",
+
+    
+    "sidenavsub.inventoryManagement":"مدیریت انبار",
+    "sidenavsub.inventoryLogs":"گزارش انبار",
+
+    "sidenavsub.faqList":"لیست سوالات و پاسخ ها",
+    "sidenavsub.addFaq":"افزودن سوال پاسخ",
+
+    "sidenavsub.siteSettings":"تنظیمات سایت",
+    "sidenavsub.shopSettings":"تنظیمات فروشگاه",
+
+    "sidenavsub.otherSldiers":"اسلایدر ها",
+    "sidenavsub.otherGalleries":"گالری ها",
+    "sidenavsub.otherTunder&Auction":"لیست مزایدات, مناقصات, رویدادها, اطلاعیه ها, و تقویم ها",
+    "sidenavsub.otherOrganizationChart":"چارت سازمانی",
+    "sidenavsub.otherNewsLetters":"خبرنامه"
+
+}

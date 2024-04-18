@@ -1,0 +1,51 @@
+.cardA_container {
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    padding: 10px;
+}
+
+.filemanagercard_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    padding: 10px;
+
+
+    .icon_container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:0 50% 50% 0;
+        height: 100%;
+        width: 150px;
+    }
+}
+
+
+
+.cardFullH_container {
+    position: relative;
+    height: auto;
+    // width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto 10px;
+
+    .total_sel {
+        position: absolute;
+        top: 80px;
+        left: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        padding: 5px;
+    }
+
+}

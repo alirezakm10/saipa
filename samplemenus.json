@@ -1,0 +1,542 @@
+{
+    "data": [
+      {
+        "config": {
+          "page": "/",
+          "page_id": 2022,
+          "component": "header",
+          "component_id": 2013,
+          "app": "/",
+          "app_id": 2022,
+          "menuNumber": 1
+        },
+        "items": [
+          {
+            "icon": null,
+            "link": "/",
+            "name": "خانه",
+            "menuId": 0,
+            "subMenus": []
+          },
+          {
+            "icon": null,
+            "link": null,
+            "name": "پورتال سازندگان",
+            "menuId": 1,
+            "subMenus": [
+              {
+                "icon": null,
+                "link": "https://extranet.sazehgostar.com/login/login.aspx?accessdenied=../Default.aspx?categoryID=1",
+                "name": "اکسترانت",
+                "menuId": 0,
+                "subMenus": []
+              },
+              {
+                "icon": null,
+                "link": "/tenders/cooperation",
+                "name": "فراخوان همکاری شرکت های سازنده",
+                "menuId": 1,
+                "subMenus": []
+              },
+              {
+                "icon": null,
+                "link": "/pages/cooperation",
+                "name": "دعوت به همکاری",
+                "menuId": 2,
+                "subMenus": []
+              },
+              {
+                "icon": null,
+                "link": "/forms/cooperation",
+                "name": "درخواست همکاری",
+                "menuId": 3,
+                "subMenus": []
+              }
+            ]
+          },
+          {
+            "icon": null,
+            "link": null,
+            "name": "کیفیت",
+            "menuId": 2,
+            "subMenus": [
+              {
+                "icon": null,
+                "link": "/pages/خط-مشی-کیفی",
+                "name": "خط مشی کیفی",
+                "menuId": 0,
+                "subMenus": []
+              },
+              {
+                "icon": null,
+                "link": "/pages/الزامات",
+                "name": "الزامات",
+                "menuId": 1,
+                "subMenus": []
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "استاندارد ها",
+                "menuId": 2,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/documents/الزامات-گروه-سایپا",
+                    "name": "الزامات گروه سایپا",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/documents/سیستم-ها",
+                    "name": "سیستم ها",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/documents/روش-ها-و-ابزار-ها",
+                    "name": "روش ها و ابزار ها",
+                    "menuId": 2,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/documents/سوالات-آزمون",
+                    "name": "سوالات آزمون",
+                    "menuId": 3,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/documents/صلاحیت-مدیران",
+                    "name": "صلاحیت مدیران",
+                    "menuId": 4,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/documents/صلاحیت-ممیزان",
+                    "name": "صلاحیت ممیزان",
+                    "menuId": 5,
+                    "subMenus": []
+                  }
+                ]
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "آزمایشگاه",
+                "menuId": 3,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/معرفی-آزمایشگاه",
+                    "name": "معرفی آزمایشگاه",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-برق-و-الکترونیک",
+                    "name": "آزمایشگاه برق و الکترونیک",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-مکانیک",
+                    "name": "آزمایشگاه مکانیک",
+                    "menuId": 2,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-مترولوژی",
+                    "name": "آزمایشگاه مترولوژی",
+                    "menuId": 3,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-کالیبراسیون",
+                    "name": "آزمایشگاه کالیبراسیون",
+                    "menuId": 4,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-شیمی",
+                    "name": "آزمایشگاه شیمی",
+                    "menuId": 5,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-شیمی",
+                    "name": "آزمایشگاه شیمی",
+                    "menuId": 6,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-پلیمر",
+                    "name": "آزمایشگاه پلیمر",
+                    "menuId": 7,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/آزمایشگاه-متالوژی",
+                    "name": "آزمایشگاه متالوژی",
+                    "menuId": 8,
+                    "subMenus": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "icon": null,
+            "link": null,
+            "name": "سیستم ها",
+            "menuId": 3,
+            "subMenus": [
+              {
+                "icon": null,
+                "link": null,
+                "name": "نظام مشارکت",
+                "menuId": 0,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/forms/ثبت-پیشنهاد",
+                    "name": "ثبت پیشنهاد",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/خط-مشی",
+                    "name": "خط مشی",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/اهداف-پیشنهاد",
+                    "name": "اهداف پیشنهاد",
+                    "menuId": 2,
+                    "subMenus": []
+                  }
+                ]
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "سیستم نرم افزاری",
+                "menuId": 1,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "https://extranet.sazehgostar.com/login/login.aspx?accessdenied=../Default.aspx?categoryID=1",
+                    "name": "اکسترانت",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "https://ghasedak.sazehgostar.com",
+                    "name": "اتوماسیون اداری",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "http://mail.sazehgostar.com/",
+                    "name": "Outlook",
+                    "menuId": 2,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "http://live.sazehgostar.com/",
+                    "name": "جلسات آنلاین",
+                    "menuId": 3,
+                    "subMenus": []
+                  }
+                ]
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "مدیریت ارتباط ذینفعان",
+                "menuId": 2,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/سنجش-رضایت-ذینفعان",
+                    "name": "سنجش رضایت ذینفعان",
+                    "menuId": 0,
+                    "subMenus": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "icon": null,
+            "link": null,
+            "name": "منابع انسانی",
+            "menuId": 4,
+            "subMenus": [
+              {
+                "icon": null,
+                "link": null,
+                "name": "آموزش",
+                "menuId": 0,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/معرفی-واحد-آموزش-سازه-گستر-سایپا",
+                    "name": "معرفی واحد آموزش سازه گستر سایپا",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/معرفی-خدمات-و-محصولات-آموزشی",
+                    "name": "معرفی خدمات و محصولات آموزشی",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/ارتباط-با-واحد-آموزش",
+                    "name": "ارتباط با واحد آموزش",
+                    "menuId": 2,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/documents/تقویم-آموزش",
+                    "name": "تقویم آموزش",
+                    "menuId": 3,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/سمینار",
+                    "name": "سمینار",
+                    "menuId": 4,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/دوره-های-درحال-برگزاری",
+                    "name": "دوره های درحال برگزاری",
+                    "menuId": 5,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/دوره-های-برگزار-شده",
+                    "name": "دوره های برگزار شده",
+                    "menuId": 6,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/درخواست-خدمات",
+                    "name": "درخواست خدمات/ثبت نام",
+                    "menuId": 7,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/اخبار-و-اطلاعیه-های-آموزشی",
+                    "name": "اخبار  و اطلاعیه های آموزشی",
+                    "menuId": 8,
+                    "subMenus": []
+                  }
+                ]
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "مدیریت دانش و پژوهش",
+                "menuId": 1,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/مدیریت-دانش",
+                    "name": "مدیریت دانش",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/پژوهش",
+                    "name": "پژوهش",
+                    "menuId": 1,
+                    "subMenus": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "icon": null,
+            "link": null,
+            "name": "درباره ما",
+            "menuId": 5,
+            "subMenus": [
+              {
+                "icon": null,
+                "link": null,
+                "name": "ارکان جهت ساز",
+                "menuId": 0,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/مقصود-وجودی",
+                    "name": "مقصود وجودی",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/هدف-کوتاه-مدت",
+                    "name": "هدف کوتاه مدت",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/ارزش-های-سازمانی",
+                    "name": "ارزش های سازمانی",
+                    "menuId": 2,
+                    "subMenus": []
+                  }
+                ]
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "مسولیت های اجتماعی",
+                "menuId": 1,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/پروژه-های-خیریه",
+                    "name": "پروژه های خیریه",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/صندوق-های-خیریه-مهرگان",
+                    "name": "صندوق های خیریه مهرگان",
+                    "menuId": 1,
+                    "subMenus": []
+                  }
+                ]
+              },
+              {
+                "icon": null,
+                "link": null,
+                "name": "درباره شرکت",
+                "menuId": 2,
+                "subMenus": [
+                  {
+                    "icon": null,
+                    "link": "/pages/مدیران-عامل-تا-کنون",
+                    "name": "مدیران عامل تا کنون",
+                    "menuId": 0,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/chart",
+                    "name": "چارت سازمانی",
+                    "menuId": 1,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/اعضا-هیت-مدیره-و-معاونین",
+                    "name": "اعضا-هیت-مدیره-و-معاونین",
+                    "menuId": 2,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/pages/تاریخچه-شرکت",
+                    "name": "تاریخچه شرکت",
+                    "menuId": 3,
+                    "subMenus": []
+                  },
+                  {
+                    "icon": null,
+                    "link": "/contact_us",
+                    "name": "ارتباط با ما",
+                    "menuId": 4,
+                    "subMenus": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "config": {
+          "page": "/",
+          "page_id": 2022,
+          "component": "footer",
+          "component_id": 2015,
+          "app": "/",
+          "app_id": 2022,
+          "menuNumber": 2
+        },
+        "items": [
+          {
+            "icon": null,
+            "link": "/",
+            "name": "خانه",
+            "menuId": 1,
+            "subMenus": []
+          },
+          {
+            "icon": null,
+            "link": "/products",
+            "name": "محصولات",
+            "menuId": 2,
+            "subMenus": []
+          },
+          {
+            "icon": null,
+            "link": "#",
+            "name": "/تماس-با-ما",
+            "menuId": 3,
+            "subMenus": []
+          },
+          {
+            "icon": null,
+            "link": "/faqs",
+            "name": "سوالات متداول",
+            "menuId": 4,
+            "subMenus": []
+          },
+          {
+            "icon": null,
+            "link": "/درباره-ما",
+            "name": "درباره ما",
+            "menuId": 5,
+            "subMenus": []
+          }
+        ]
+      }
+    ]
+  }
